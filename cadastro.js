@@ -15,7 +15,7 @@ function enviarFormulario(event) {
     };
     $.ajax({
         //url: 'http://localhost:8081/api/v1/users',
-        url: 'https://www.denunciaonlinepi19.online/',
+        url: 'https://brunofigueh.github.io/projetoDenuncia/cadastro.html',
         type: 'POST',
         contentType: 'application/json',
         data: JSON.stringify(userData),
